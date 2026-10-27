@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- The plugin marketplace is now named `kevlar10x-btt`, so it installs next to gtp and other kevlar10x plugins without a name clash.
+
 ## 1.0.0 - 2026-10-27
 
 - First release. Start a message with `btt` and an idea, and Claude picks what to build (a skill, hook, browser extension, game mod, script, app or page), says which and why in one line, then builds and tests it.
