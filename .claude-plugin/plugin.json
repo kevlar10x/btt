@@ -1,0 +1,17 @@
+{
+  "name": "btt",
+  "displayName": "btt: build this thing",
+  "version": "1.0.0",
+  "description": "Type btt and an idea: Claude picks what to build (skill, hook, browser extension, game mod, script, app or page), says why in one line, then builds and tests it.",
+  "author": {
+    "name": "kevlar10x",
+    "url": "https://github.com/kevlar10x"
+  },
+  "homepage": "https://github.com/kevlar10x/btt",
+  "repository": "https://github.com/kevlar10x/btt",
+  "documentationUrl": "https://github.com/kevlar10x/btt#readme",
+  "supportUrl": "https://github.com/kevlar10x/btt/issues",
+  "icon": "./.claude-plugin/icon.png",
+  "license": "MIT",
+  "keywords": ["builder", "scaffolding", "prototyping", "skills", "hooks", "browser-extension", "mods", "automation"]
+}
