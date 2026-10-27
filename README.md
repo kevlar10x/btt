@@ -20,6 +20,10 @@ When two forms fit, it takes the one with fewer moving parts. If the idea can't 
 
 ## Example
 
+![btt running in the Claude desktop app on the prompt "btt make claude crab character wear a tophat". It has used the btt and plugin-authoring skills and searched for where the crab is drawn. Its task list reads: learn how mods reach the crab character, gap-check and pick the form, build the tophat mod, install it locally, verify the crab wears the hat.](docs/example.png)
+
+A real run in the desktop app, a minute in. btt has loaded the skill for building Claude Code mods and is looking for where the crab is drawn, before it settles the gaps and picks a form.
+
 A real first reply to `btt a button that saves the web page I'm reading as a markdown file`. It ran in plan mode, so nothing was built yet. Trimmed, with the home folder shortened to `~`:
 
 ```

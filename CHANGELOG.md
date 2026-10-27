@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- The README shows a screenshot of btt running in the desktop app.
 - The README has Privacy and Uninstall sections and a step for installing from the desktop app.
 - The plugin listing links to the README's Privacy section, and the marketplace names kevlar10x as its owner.
 - The repo's Sponsor button links to Ko-fi.
