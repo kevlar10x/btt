@@ -58,6 +58,8 @@ Claude Code, as a plugin:
 
 Installed this way, it runs as `/btt:btt`.
 
+In the desktop app, where `/plugin` doesn't run: click + next to the prompt box, then Plugins → Add marketplace with `kevlar10x/btt` → Add plugin.
+
 Or copy `skills/btt/SKILL.md` into `~/.claude/skills/btt/`.
 
 claude.ai: download `btt.zip` from the [latest release](https://github.com/kevlar10x/btt/releases/latest) and upload it under Settings → Capabilities → Skills. On claude.ai it can still pick the form and build what fits there, like pages, scripts and skill files to download. Hooks, mods and local installs need Claude Code.
@@ -74,14 +76,26 @@ Where things go: skills in `~/.claude/skills/<name>`, Claude Code mods in `~/.cl
 
 btt never publishes anything (GitHub, Nexus, stores) until you say so. It offers at the end.
 
-btt is one instruction file. It runs no scripts and sends nothing anywhere. Claude builds with its usual tools and permissions. If skill-creator, update-config or gap-check are installed, btt uses them; without them, Claude does the same work directly.
+If skill-creator, update-config or gap-check are installed, btt uses them; without them, Claude does the same work directly.
 
 If it doesn't start when you type `btt`, call it with `/btt`, and check that `SKILL.md` sits in a folder named `btt`. Bugs and ideas go in [issues](https://github.com/kevlar10x/btt/issues).
+
+## Privacy
+
+btt is one instruction file. It runs no scripts and sends nothing anywhere. Claude builds with its usual tools, under the permissions you've set, and what it builds lives in your own folders.
+
+## Uninstall
+
+```
+npx skills remove btt -g
+```
+
+If you installed the plugin: `claude plugin uninstall btt`. If you copied the file, delete `~/.claude/skills/btt/`. Things btt built stay where it put them.
 
 ## Credit
 
 Made by kevlar10x. Sister skill to [gtp](https://github.com/kevlar10x/gtp), which grills a finished product from the user's side.
 
-MIT license.
+MIT license. The original is at https://github.com/kevlar10x/btt.
 
 Tips are optional: https://ko-fi.com/kevlar10x

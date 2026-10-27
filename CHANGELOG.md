@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- The README has Privacy and Uninstall sections and a step for installing from the desktop app.
+- The plugin listing links to the README's Privacy section, and the marketplace names kevlar10x as its owner.
+- The repo's Sponsor button links to Ko-fi.
 - The plugin marketplace is now named `kevlar10x-btt`, so it installs next to gtp and other kevlar10x plugins without a name clash.
 
 ## 1.0.0 - 2026-10-27
